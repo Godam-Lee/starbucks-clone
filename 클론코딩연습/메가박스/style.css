@@ -1,0 +1,140 @@
+/* common */
+body {
+  font-size: 16px;
+  font-family: 'Nanum Gothics', sans-serif;
+  margin: 0 auto;
+  color: #fff
+}
+
+/* head */
+header {
+  background-color: rgba(0, 0, 0, 0.815);
+}
+header .inner {
+  width: 1100px;
+  top: 0;
+  height: 90px;
+  margin: 0 auto;
+  position: relative;
+}
+header .inner .logo {
+  text-decoration: none;
+}
+header .inner .logo img {
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  position: absolute;
+  height: 55px;
+  width: 170px;
+}
+header .navLeft {
+  position: relative;
+  width: 460px;
+  height: 100%;
+}
+header .navLeft .subMenu {
+  display: flex;
+  position: absolute;
+  top: 15px;
+}
+header .navLeft .subMenu li {
+  margin: 0 10px;
+  padding: 0 10px;
+  font-size: 14px;
+} 
+header .navLeft .subMenu li:first-child {
+  margin-left: 0;
+  padding-left: 0;
+}
+header .navLeft .subMenu li a {
+  text-decoration: none;
+  color: #c8c8c8;
+}
+header .navLeft .subMenu li a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+header .navLeft .icons {
+  position: absolute;
+  bottom: 15px;
+}
+header .navLeft .icons .material-icons {
+  font-size: 30px;
+  cursor: pointer;
+}
+header .navLeft .mainMenu {
+  display: flex;
+  position: absolute;
+  left: 180px;
+  bottom: 24px;
+}
+header .navLeft .mainMenu li {
+  margin: 0 15px;
+  padding: 0 10px;
+}
+header .navLeft .mainMenu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+}
+
+header .navRight {
+  position: absolute;
+  top: 0ex;
+  right: 0;
+  width: 460px;
+  height: 100%;
+}
+header .navRight > .subMenu {
+  display: flex;
+  position: absolute;
+  top: 15px;
+  right: 0;
+}
+header .navRight .subMenu li {
+  margin: 0 10px;
+  padding: 0 10px;
+  font-size: 14px;
+} 
+header .navRight .subMenu li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+header .navRight .subMenu li a {
+  text-decoration: none;
+  color: #c8c8c8;
+}
+header .navRight .subMenu li a:hover {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+header .navRight .icons {
+  position: absolute;
+  right: 0;
+  bottom: 15px;
+}
+header .navRight .icons .material-icons {
+  font-size: 30px;
+  cursor: pointer;
+}
+header .navRight .mainMenu {
+  display: flex;
+  position: absolute;
+  right: 120px;
+  bottom: 24px;
+}
+header .navRight .mainMenu li {
+  margin: 0 15px;
+  padding: 0 10px;
+  display: block;
+  width: 60px;
+}
+header .navRight .mainMenu li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 19px;
+}
